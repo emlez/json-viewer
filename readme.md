@@ -1,6 +1,6 @@
 <p align="center">
     <img src="https://github.com/rose-pine/rose-pine-theme/raw/main/assets/icon.png" width="80" />
-    <h2 align="center">Rosé Pine for App</h2>
+    <h2 align="center">Rosé Pine for JSON Viewer</h2>
 </p>
 
 <p align="center">All natural pine, faux fur and a bit of soho vibes for the classy minimalist</p>
@@ -13,23 +13,30 @@
 
 ## Usage
 
-1. Open App
-2. Under settings, import `rose-pine.theme`
-3. Select `Rosé Pine` from the themes dropdown
+1. Download JSON Viewer extension for [Chrome (or Brave)](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh).
+2. Open the JSON Viewer Scratch Pad.
+   To access it, type on the search bar of your browser `json-viewer` + `TAB` + `scratch pad` + `ENTER`.
+3. Enter to the extension settings by clicking on the gear icon on the top-right corner, that says `Options` when hovered.
+
+#### For Rosé Pine Dawn
+
+1. Change the theme on the settings page to `default`, the first theme within the dark theme section in the dropdown menu.
+2. Go all the way down on the settings page, and copy the CSS code from the `css` folder in [here]().
+
+#### For Rosé Pine & Rosé Pine Moon
+
+1. Change the theme on the settings page to `3024-night`, the first theme within the dark theme section in the dropdown menu.
+2. Go all the way down on the settings page, and copy the CSS code from the `css` folder in [here]().
 
 ## Gallery
 
-![Rosé Pine with App](assets/template.png)
+**Rosé Pine**
+![rose-pine](https://user-images.githubusercontent.com/64607766/162557863-df9b78e8-f346-498e-949a-34dd53bed705.png)
+**Rosé Pine Moon**
+![rose-pine-moon](https://user-images.githubusercontent.com/64607766/162557867-b7dba022-4236-42e7-8b6e-8cc743e6d4de.png)
+**Rosé Pine Dawn**
+![rose-pine-dawn](https://user-images.githubusercontent.com/64607766/162557869-00ab3cf3-8388-4c0f-8a51-8f9cd27d7595.png)
 
 ## Thanks to
 
-- [You, it's you!](https://github.com/<username>)
-
-## Style guide
-
-> Be sure to remove this section 😌
-
-- Lowercase meta files, eg. `readme.md`
-- Repo name should be the simplest version of the app name, eg. iterm instead of iTerm2
-- Format repo description as "Soho vibes for App"
-- Generate and upload social image via [Rosé Pine Images](https://rose-pine-images.vercel.app)
+- [emlez](https://github.com/emlez/)

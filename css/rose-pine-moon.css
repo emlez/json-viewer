@@ -1,0 +1,66 @@
+:root {
+  --base: #232136;
+  --surface: #2a273f;
+  --overlay: #393552;
+  --muted: #6e6a86;
+  --subtle: #908caa;
+  --text: #e0def4;
+  --love: #eb6f92;
+  --gold: #f6c177;
+  --rose: #ea9a97;
+  --pine: #3e8fb0;
+  --foam: #9ccfd8;
+  --iris: #c4a7e7;
+  --highlight-low: #2a283e;
+  --highlight-med: #44415a;
+  --highlight-high: #56526e;
+}
+.CodeMirror {
+  font-family: monaco, Consolas, Menlo, Courier, monospace;
+  font-size: 16px;
+  line-height: 1.5em;
+  background-color: var(--base) !important;
+}
+span {
+  color: var(--text) !important;
+}
+.CodeMirror-gutters {
+  background-color: var(--surface) !important;
+  border-right: 1px solid var(--overlay) !important;
+}
+.CodeMirror-linenumber {
+  color: var(--iris) !important;
+}
+.CodeMirror-guttermarker-subtle {
+  color: var(--pine) !important;
+}
+.CodeMirror-foldmarker {
+  color: var(--love) !important;
+  text-shadow: none;
+}
+.extras .icon svg {
+  fill: var(--iris) !important;
+}
+.extras .icon:hover {
+  background-color: var(--overlay) !important;
+}
+.cm-s-3024-night .cm-comment {
+  color: var(--muted) !important;
+}
+.cm-s-3024-night .cm-operator,
+.cm-s-3024-night .cm-property,
+.cm-s-3024-night .cm-punctuation,
+.cm-s-3024-night .cm-variable {
+  color: var(--foam) !important;
+}
+.cm-s-3024-night .cm-atom,
+.cm-s-3024-night .cm-number {
+  color: var(--rose) !important;
+}
+.cm-s-3024-night .cm-string,
+.cm-s-3024-night .cm-string-2 {
+  color: var(--gold) !important;
+}
+.CodeMirror-selected {
+  background: var(--highlight-med) !important;
+}
